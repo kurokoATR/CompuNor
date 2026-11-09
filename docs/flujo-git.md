@@ -5,8 +5,7 @@
 | Rama | Para qué se usa |
 |---|---|
 | `main` | Versión estable. No se trabaja directamente sobre ella. |
-| `docs/bpmn-compunor` | Diagrama BPMN y su descripción. |
-| `docs/readme-ia-indicadores` | README con la declaración de IA, historias de usuario e indicadores de control. |
+| `docs/bpmn-compunor` | BPMN, historias de usuario, indicadores, flujo de Git, plantilla de PR y README con la declaración de IA. |
 | `feature/...` | Código del sistema (etapa de implementación). |
 
 ## Mensajes de commit
