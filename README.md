@@ -53,7 +53,7 @@ El proceso que el sistema va a automatizar es la **venta de un equipo, desde la 
 ## Forma de trabajo con Git y GitHub
 
 - La rama `main` contiene siempre la versión estable de la documentación.
-- Cada cambio se hace en una **rama secundaria** (`docs/...`, `feature/...`) y llega a `main` mediante un **Pull Request** con revisión de otra persona.
+- Cada cambio se hace en una **rama secundaria** (`docs/...`, `feature/...`) y llega a `main` mediante un **Pull Request**. Lo ideal es que lo revise otra persona; en esta entrega trabajé solo.
 - Los mensajes de commit son descriptivos, en español y con prefijo: `docs:`, `feat:`, `fix:`, `chore:`.
 
 El detalle está en [`docs/flujo-git.md`](docs/flujo-git.md).
@@ -87,7 +87,7 @@ Se usó un asistente de inteligencia artificial generativa (Claude, de Anthropic
 
 **Correcciones y controles humanos:**
 
-- La IA detectó que el repositorio tenía solo la rama `main`, ningún Pull Request y un README sin declaración de IA. Corregí eso creando las ramas, abriendo y resolviendo un Pull Request con revisión de pares, y agregando esta sección.
+- La IA detectó que el repositorio tenía solo la rama `main`, ningún Pull Request y un README sin declaración de IA. Lo corregí creando la rama `docs/bpmn-compunor`, abriendo el Pull Request #16 y agregando esta sección. El PR lo integré yo mismo, sin revisión de otra persona, porque trabajé solo.
 - La IA no pudo acceder al tablero. Las capturas y los estados de las tarjetas los comprobé yo directamente en GitHub Projects.
 - Los indicadores son estándares propuestos, no mediciones. Aclaré esa diferencia para no presentarlos como resultados ya conseguidos.
 - COMPLETAR: agregar acá una o dos correcciones propias sobre el BPMN o las historias de usuario (por ejemplo, qué cambié para que coincida con cómo vendo realmente).
